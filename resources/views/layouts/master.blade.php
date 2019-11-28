@@ -28,10 +28,10 @@
     -->
     <div class="logo">
         <a href="http://www.creative-tim.com" class="simple-text logo-mini">
-          CT
+          
         </a>
         <a href="http://www.creative-tim.com" class="simple-text logo-normal">
-          Creative Tim
+          Sabra Security Hub
         </a>
       </div>
       <div class="sidebar-wrapper" id="sidebar-wrapper">
@@ -47,7 +47,7 @@
           <li class="{{ 'aboutus'==request()->path() ? 'active' :''}}">
             <a href="/aboutus">
               <i class="now-ui-icons ui-1_bell-53"></i>
-              <p>About us</p>
+              <p>User Management</p>
             </a>
           </li>
           <!-- <li class="{{ 'role-register'==request()->path() ? 'active' :''}}">
@@ -58,15 +58,24 @@
           </li>
           -->
        
-          <li>
-            <a href="#">
+          <li class="{{ 'history'==request()->path() ? 'active' :''}}">
+          
+            <a href="/history">
               <i class="now-ui-icons arrows-1_cloud-download-93"></i>
               <p>History</p>
             </a>
           </li>
+          
+          <li class="{{ 'notification'==request()->path() ? 'active' :''}}">
+          
+            <a href="/notification">
+              <i class="now-ui-icons arrows-1_cloud-download-93"></i>
+              <p>Notification</p>
+            </a>
+          </li>
         </ul>
       </div>
-    </div>
+    
       
     </div>
     <div class="main-panel" id="main-panel">

@@ -16,6 +16,7 @@ Route::get('/', function () {
 });
 
 
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
@@ -36,4 +37,11 @@ Route::group(['middleware'=>['auth','admin']],function(){
     Route::get('/aboutus', function () {
         $allcars=App\Models\vis::all();
         return view('admin.aboutus')->with('vis',$allcars);
+    });
+    Route::get('/history', function () {
+        $allcars=App\Models\vis::all();
+        return view('admin.history')->with('vis',$allcars);
+    });
+    Route::get('/notification', function () {
+        
     });

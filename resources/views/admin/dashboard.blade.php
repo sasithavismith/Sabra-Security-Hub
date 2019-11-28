@@ -18,8 +18,8 @@ Dashboard | fund of web id
               <div class="col-lg-4">
                 <div class="card card-chart">
                   <div class="card-header">
-                    <h5 class="card-category">Global Sales</h5>
-                    <h4 class="card-title">Shipped Products</h4>
+                   
+                    <!-- <h4 class="card-title">Shipped Products</h4> -->
                     <div class="dropdown">
                       <button type="button" class="btn btn-round btn-outline-default dropdown-toggle btn-simple btn-icon no-caret" data-toggle="dropdown">
                         <i class="now-ui-icons loader_gear"></i>
@@ -47,8 +47,8 @@ Dashboard | fund of web id
               <div class="col-lg-4 col-md-6">
                   <div class="card card-chart">
                     <div class="card-header">
-                      <h5 class="card-category">2018 Sales</h5>
-                      <h4 class="card-title">All products</h4>
+                    
+                      <!-- <h4 class="card-title">All products</h4> -->
                       <div class="dropdown">
                         <button type="button" class="btn btn-round btn-outline-default dropdown-toggle btn-simple btn-icon no-caret" data-toggle="dropdown">
                           <i class="now-ui-icons loader_gear"></i>
@@ -76,8 +76,8 @@ Dashboard | fund of web id
                 <div class="col-lg-4 col-md-6">
                   <div class="card card-chart">
                     <div class="card-header">
-                      <h5 class="card-category">Email Statistics</h5>
-                      <h4 class="card-title">24 Hours Performance</h4>
+      
+                      <h4 class="card-title"> last 24 Hours Performance</h4>
                     </div>
                     <div class="card-body">
                       <div class="chart-area">
@@ -86,7 +86,7 @@ Dashboard | fund of web id
                     </div>
                     <div class="card-footer">
                       <div class="stats">
-                        <i class="now-ui-icons ui-2_time-alarm"></i> Last 7 days
+                        <i class="now-ui-icons ui-2_time-alarm"></i> just Update
                       </div>
                     </div>
                   </div>
@@ -96,7 +96,7 @@ Dashboard | fund of web id
                 <div class="col-md-6">
                   <div class="card  card-tasks">
                     <div class="card-header ">
-                      <h5 class="card-category">Backend development</h5>
+                   
                       <h4 class="card-title">Tasks</h4>
                     </div>
                     <div class="card-body ">
@@ -112,7 +112,7 @@ Dashboard | fund of web id
                                   </label>
                                 </div>
                               </td>
-                              <td class="text-left">Sign contract for "What are conference organizers afraid of?"</td>
+                              <td class="text-left">Sign contract </td>
                               <td class="td-actions text-right">
                                 <button type="button" rel="tooltip" title="" class="btn btn-info btn-round btn-icon btn-icon-mini btn-neutral" data-original-title="Edit Task">
                                   <i class="now-ui-icons ui-2_settings-90"></i>
@@ -131,7 +131,7 @@ Dashboard | fund of web id
                                   </label>
                                 </div>
                               </td>
-                              <td class="text-left">Lines From Great Russian Literature? Or E-mails From My Boss?</td>
+                              <td class="text-left"></td>
                               <td class="td-actions text-right">
                                 <button type="button" rel="tooltip" title="" class="btn btn-info btn-round btn-icon btn-icon-mini btn-neutral" data-original-title="Edit Task">
                                   <i class="now-ui-icons ui-2_settings-90"></i>
@@ -150,7 +150,7 @@ Dashboard | fund of web id
                                   </label>
                                 </div>
                               </td>
-                              <td class="text-left">Flooded: One year later, assessing what was lost and what was found when a ravaging rain swept through metro Detroit
+                              <td class="text-left">Place their working
                               </td>
                               <td class="td-actions text-right">
                                 <button type="button" rel="tooltip" title="" class="btn btn-info btn-round btn-icon btn-icon-mini btn-neutral" data-original-title="Edit Task">
@@ -187,10 +187,10 @@ Dashboard | fund of web id
                               Name
                             </th>
                             <th>
-                              Country
+                             Qulity of Person 
                             </th>
                             <th>
-                              City
+                              Functuality
                             </th>
                             <th class="text-right">
                               Salary
@@ -199,16 +199,16 @@ Dashboard | fund of web id
                           <tbody>
                             <tr>
                               <td>
-                                Dakota Rice
+                                Sarath
                               </td>
                               <td>
-                                Niger
+                                Good
                               </td>
                               <td>
-                                Oud-Turnhout
+                                
                               </td>
                               <td class="text-right">
-                                $36,738
+                              Rs.12000
                               </td>
                             </tr>
                             <tr>
@@ -240,20 +240,7 @@ Dashboard | fund of web id
                               </td>
                             </tr>
                             
-                            <tr>
-                              <td>
-                                Mason Porter
-                              </td>
-                              <td>
-                                Chile
-                              </td>
-                              <td>
-                                Gloucester
-                              </td>
-                              <td class="text-right">
-                                $78,615
-                              </td>
-                            </tr>
+                           
                           </tbody>
                         </table>
                       </div>

@@ -13,7 +13,7 @@ Aboutus | fund of web id
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Add About us </h5>
+          <h5 class="modal-title" id="exampleModalLabel">+Add </h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -37,7 +37,7 @@ Aboutus | fund of web id
               </div>
               <div class="form-group">
                 <label for="message-text" class="col-form-label">Finger Print:</label>
-              
+                <img src="assets/img/img2.png"  width="70px" height="70px" style="padding:50px">
               </div>
               <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -51,12 +51,12 @@ Aboutus | fund of web id
   </div>
 <div class="row">
           <div class="col-md-12">
-              <a class="navbar-brand" href="#pablo">Aboutus</a>
+              <a class="navbar-brand" href="#pablo">User Management</a>
               <div class="card-header">
                 
        
-                <h4 class="card-title"> About us
-                    <button type="button" class="btn btn-primary float-right" data-target="#exampleModal" data-toggle="modal">ADD</button>
+                <h4 class="card-title"> User Management 
+                    <button type="button" class="btn btn-primary float-right" data-target="#exampleModal" data-toggle="modal">+ADD</button>
                     @if (session('status'))
                     <div class="alert alert-success col-md-6">
                         {{ session('status') }}

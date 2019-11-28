@@ -68,14 +68,19 @@
             }
         </style>
     </head>
+    
     <body>
+   
         <div class="flex-center position-ref full-height">
+        <img src="assets/img/img2.png"  width="70px" height="70px" style="padding:50px">
             @if (Route::has('login'))
                 <div class="top-right links">
+                    
                     @if (Auth::check())
                         <a href="{{ url('/home') }}">Home</a>
                     @else
-                        <a href="{{ url('/login') }}" class="btn btn-primary">Login</a>
+                    
+                        <a href="{{ url('/login') }}" style="font-weight:600; color:white;">Login</a>
                         <!-- <a href="{{ url('/register') }}">Register</a> -->
                     @endif
                 </div>
@@ -83,7 +88,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                <h3 style="font-weight:600; color:white;">Sabra Security Hub</h3>
+                <h3 style="font-weight:600; color:white; letter-spacing:2px;font-family:roboto;">Sabra Security Hub</h3>
                 </div>
 
                
